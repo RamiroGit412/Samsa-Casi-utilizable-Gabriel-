@@ -1,18 +1,23 @@
 {
-  "name": "samsa-backend",
+  "name": "samsa-frontend",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "mysql2": "^3.6.0"
+    "jspdf": "^3.0.1",
+    "react": "^18.2.0",
+    "react-calendar": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.4.0"
   }
 }
